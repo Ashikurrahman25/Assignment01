@@ -1,0 +1,273 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+}
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
+  font-size: 80px;
+  color: #363958;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
+  font-size: 50px;
+  color: #363958;
+  margin: 0;
+  padding: 0;
+}
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #363958;
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+nav {
+  margin: 0 auto;
+  display: block;
+
+  padding: 10px 25px 0 0;
+  text-align: right;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 0 30px;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+nav li a {
+  text-decoration: none;
+  color: #3c3c3c;
+}
+nav li a:hover {
+  color: #5a5a5a;
+}
+nav li:hover {
+  cursor: pointer;
+}
+
+.salmon-highlight {
+  color: #ff8367;
+}
+
+.top-section {
+  height: 500px;
+  padding-bottom: 15%;
+}
+
+.half-width {
+  width: 40%;
+  padding: 2%;
+  margin-left: 5%;
+  float: left;
+}
+
+.half-width img {
+  width: 90%;
+  height: 90%;
+}
+
+.work-section {
+  margin-top: 2%;
+  background-color: whitesmoke;
+  height: 700px;
+}
+
+.work-section h3 {
+  text-align: center;
+  padding: 50px;
+  margin-top: 5%;
+}
+
+.review-section {
+  width: 100%;
+  height: 500px;
+  background-color: #ff8063;
+}
+
+.review-section {
+  width: 100%;
+  height: 700px;
+  background-color: #5555da;
+}
+
+.review-section-container {
+  width: 75%;
+  height: 40%;
+  position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.review-section h3 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
+  font-size: 50px;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.review-section h2 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
+  font-size: 70px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.review-section h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.review-section-rate {
+  text-align: center;
+  width: 20%;
+  float: left;
+}
+
+.single-service{
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+  height: 80%;
+  background-color: white;
+}
+
+.inquiry-section {
+  width: 100%;
+  height: 500px;
+  margin-top: 10%;
+}
+
+.inquiry-section h2 {
+  text-align: center;
+  padding: 50px;
+  margin-top: 5%;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
+  font-size: 64px;
+  color: #ffffff;
+}
+
+.inquiry-section h3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #363958;
+  padding: 5px;
+}
+
+.inquiry-section h4 {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
+  font-size: 24px;
+  color: #696871;
+  margin-top: 60px;
+  padding: 5px;
+}
+
+.inquiry-section-shape {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.inquiry-section-text {
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  transform: translate(-50%, -38%);
+}
+
+.inquiry-section-anchor {
+  position: absolute;
+  top: 50%;
+  right: 32%;
+  transform: translate(50%, 1%);
+}
+
+.work-box-area {
+  width: 75%;
+  height: 40%;
+  position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.linked-button {
+  text-decoration: none;
+  padding: 22px 60px;
+  background-image: linear-gradient(90deg, #ff8063, #f46060);
+  color: white;
+  border-radius: 7px;
+}
+
+.padded-div {
+  padding: 25px;
+}
+
+.top-padded-div {
+  padding-top: 40px;
+}
+
+.card {
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  float: left;
+  width: 25%;
+  margin: 1%;
+}
+.card img {
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+}
+
+.container {
+  padding: 2px 16px;
+}
+.footer-logo {
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-logo img {
+  width: 2%;
+  margin: 15px;
+}
+
+footer p{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color:gainsboro;
+}
+
+
+
+
